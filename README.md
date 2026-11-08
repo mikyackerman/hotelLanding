@@ -1,0 +1,1 @@
+https://hotellanding.pages.dev/
