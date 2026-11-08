@@ -1,0 +1,247 @@
+  <!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Hotel Duarte</title>
+    </head>
+    <body class="grid grid-cols-1 
+                 lg:grid-cols-[250px_1fr] font-fraunces" >
+
+
+      <!--SIDEBAR-->
+      <div class="bg-[#fbf6f0] p-4 gap-4 
+                  md:p-10 
+                  lg:p-4 lg:flex lg:flex-col lg:min-h-screen border-r border-gray-200">
+
+              <!--HOTEL TITLE-->
+              <div class="flex items-center gap-2 border-b border-gray-200 pb-4">
+                  <img src="/src/assets/icon-sun.svg" class="h-10 w-10">
+
+              <div class=" text-xl">
+                <p class="italic text-[#a03c22]">Maison</p>  
+                <p class="font-bold">Soleil</p>
+              </div>
+                      
+              <a class="ml-auto">+</a>
+              </div>
+              
+              <!--LINKS TO SERVICES-->
+
+                   
+              <div class="hidden lg:flex lg:flex-col gap-4 text-sm text-gray-800">
+                
+                <a class="flex items-center"><img src="/src/assets/icon-bed.svg" class="h-6 w-6 mr-2">Your stay</a>
+                <a class="flex items-center"><img src="/src/assets/icon-house.svg" class="h-6 w-6 mr-2">The house</a>
+                <a class="flex items-center"><img src="/src/assets/icon-pin.svg" class="h-6 w-6 mr-2">Around town</a>
+                <a class="flex items-center"><img src="/src/assets/icon-breakfast-outline.svg" class="h-6 w-6 mr-2">Breakfast</a>
+
+              </div>
+
+              
+              <div class="mt-auto hidden lg:flex lg:flex-col gap-6">
+ 
+              <div class="shadow-md border border-amber-200 rounded-xl p-2 bg-amber-200">
+                <p class=" mb-1 text-xs text-gray-500">TODAY IN CALIFORNIA</p>
+                <p class="mb-1 text-2xl">27 degrees</p>
+                <p class="text-xs">Sunny - Light Breeze</p>
+              </div>
+
+              <div class="border-t-2 border-gray-200 pt-4 text-xs text-gray-500">
+                <p class="mb-2">Est. 1986</p>
+                <p class="mb-2">MAISON SOLEIL - 12 ROE DES OLIVIERS - CASSIS</p>
+                <p class="mb-2">2020 MAISON SOLEIL</p>
+              </div>
+
+              </div>
+                   
+      </div>
+
+      
+      <!--MAIN CONTENT-->
+      <div class="bg-[#fbf6f0] p-4
+                  md:p-10 lg:p-10 ">
+
+        <!--HEADER-->
+        <header>
+
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+          <div>
+            <p class="text-xs text-gray-500 pb-2">BOOKING  -  CONFIRMED</p>  
+            <p class="text-4xl">Bienvenida, <span class="italic text-[#a03c22]"> Lucia.</span></p> 
+          </div>
+         
+
+          <div class="flex justify-around gap-4">
+          <button class="text-sm border-2 py-1 flex-1 max-w-30 px-2 rounded-full border-gray-200">Print Receipt</button>
+          <button class="bg-black text-[#fbf6f0] text-sm py-1 px-2 rounded-full">Add to calendar</button>
+          </div>
+        </div>
+
+         </header>  
+         
+         <!--CARDS-->
+         
+         <main>
+
+         <div class="lg:grid lg:grid-cols-2 lg:max-w-3xl mx-auto my-14 ">
+
+        
+          <div class=" bg-linear-to-tr from-[#a03c22] to-[#de7637] shadow-2xl p-6 
+                        text-[#fbf6f0] rounded-xl rotate-358">
+             <div class="border-dotted border-t py-4">
+              <p class="text-xs">WELCOME CARD</p>
+             </div> 
+            
+            <p class="mt-8 italic text-xl text-[#ffd488]">A note from your host</p>
+            <p class="mt-4 text-4xl italic ">Duarte</p>
+            <p class="text-xs font-extralight mt-8">We're so glad you're coming. The
+              shutters will be open, the lemonade cold, and the cat - 
+              Poivre - pretending not to notice you.
+            </p>
+            <p class="mt-14 text-xs">Room</p>
+            <p class="text-xl">La Garrigue</p>
+            
+          </div>
+
+          <div class="shadow-2xl rounded-2xl p-6 bg-[#fbfaf6] rotate-2 ">
+
+            <div class="flex justify-between border-b border-gray-300 pb-4">
+              <div>
+                <p class="text-gray-500">Receipt</p>
+                <p class="text-xl ">Your stay</p>
+              </div>
+              <div class="text-xs text-gray-500">
+                <p >No-MS-2026</p>
+                <p>0421-AH</p>
+              </div>
+              
+            </div>
+            
+            <div class="flex justify-around text-center py-4 border-b border-gray-300">
+              <div>
+                <p class="text-xs text-gray-500">CHECK IN</p>
+                <p class="font-semibold text-4xl py-1">25 Apr</p>
+                <p class="text-sm text-gray-500">Saturday - 15:00</p>
+              </div>
+
+              <div>
+                <p class="text-xs text-gray-500">CHECK OUT</p>
+                <p class="font-semibold text-4xl py-1">29 Apr</p>
+                <p class="text-sm text-gray-500">Wednesday - 11:00</p>
+              </div>
+            </div>
+            
+            <div class="flex justify-between py-4 border-b">
+              <div class="flex flex-col gap-2 text-sm">
+                <p>Room - La Garrigue x 4 nights</p>
+                <p>Breakfast x 2 guests</p>
+                <p>Tourist tax</p>
+              </div>
+
+              <div class="flex flex-col gap-2 text-sm" >
+                <p>$620.00</p>
+                <p>$96.00</p>
+                <p>$14.40</p>
+              </div>
+                
+            </div>
+            
+            <div class="flex justify-between pt-4">
+              <div class="text-gray-500">
+                <p class="text-sm mb-8">TOTAL PAID</p>
+                <p class="text-xs">PAID - WISE - GBP</p>
+              </div>
+              <div>
+                <p class="text-2xl mb-4">$730.40</p>
+                <img src="/src/assets/icon-barcode.svg">
+              </div>
+                
+            </div>
+            
+
+          </div>
+
+        </div>
+
+        <!--TRIPLE CARD-->
+        <section class="grid grid-cols-1 lg:grid-cols-3 gap-4 justify-between">
+
+          <div class="p-6 shadow-lg rounded-2xl bg-[#fbfaf6] border border-gray-200">
+
+              <div class="flex gap-2 items-center text-[#a03c22] mb-6">
+                <img src="/src/assets/icon-key.svg"
+                class="bg-[#a03c22] p-2 rounded-lg">
+                <p class="text-sm">ARRIVAL</p>
+                <p class="ml-auto text-2xl">01</p>
+              </div>
+
+              <div class="flex flex-col gap-4">
+                <p class="text-2xl">Check in from 15:00</p>
+                <p class="text-xs text-gray-500">Sat, 25 April</p>
+                <p class="text-md text-gray-800">Ring the brass bell by the blue door. if we're at
+                  the market, the key is in the terracota pot by 
+                  the olive tree.
+                </p>
+              </div>
+                 
+            </div>
+
+
+            <div class="p-6 shadow-lg rounded-2xl bg-[#fbfaf6] border border-gray-200">
+
+              <div class="flex gap-2 items-center text-blue-500 mb-6">
+                <img src="/src/assets/icon-wifi.svg"
+                class="bg-blue-500 p-2 rounded-lg">
+                <p class="text-sm">WIFI</p>
+                <p class="ml-auto text-2xl">02</p>
+              </div>
+
+              <div class="flex flex-col gap-4">
+                <p class="text-2xl">Le soil - Guest</p>
+                <p class="text-xs text-gray-500">Password below</p>
+                <p class="text-md text-gray-800">Ring the brass bell by the blue door. if we're at
+                  the market, the key is in the terracota pot by 
+                  the olive tree.
+                </p>
+              </div>
+        
+          </div>
+
+
+          <div class="p-6 shadow-lg rounded-2xl bg-[#fbfaf6] border border-gray-200">
+
+              <div class="flex gap-2 items-center text-pink-600 mb-6">
+                <img src="/src/assets/icon-breakfast.svg"
+                class="bg-pink-600 p-2 rounded-lg">
+                <p class="text-sm">BREAKFAST</p>
+                <p class="ml-auto text-2xl">03</p>
+              </div>
+
+              <div class="flex flex-col gap-4">
+                <p class="text-2xl">Served 8 - 10:30</p>
+                <p class="text-xs text-gray-500">Sat, 25 April</p>
+                <p class="text-md text-gray-800">Ring the brass bell by the blue door. if we're at
+                  the market, the key is in the terracota pot by 
+                  the olive tree.
+                </p>
+              </div>
+          
+
+
+        </section>
+
+      </div>
+
+        </main>
+
+
+        
+        
+      
+
+
+      <script type="module" src="/src/main.js"></script>
+    </body>
+  </html>
